@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>有限会社シュウキ工業</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #f8fdf8;
+      color: #333;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #e8f5e9;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2e7d32;
+      font-weight: bold;
+    }
+    .section {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>有限会社シュウキ工業</h1>
+    <p>製作金物のプロフェッショナル</p>
+  </header>
+
+  <nav>
+    <a href="#about">会社概要</a>
+    <a href="#services">事業内容</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>会社概要</h2>
+    <p>有限会社シュウキ工業は、スチール・ステンレスを中心とした製作金物の設計・加工・取付を行っております。</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>事業内容</h2>
+    <ul>
+      <li>スチール・ステンレス製金物の製作</li>
+      <li>手すり・タラップ・建築金物全般の設計・施工</li>
+      <li>オーダーメイド対応</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>お問い合わせ</h2>
+    <p>お見積りやご相談など、お気軽にご連絡ください。</p>
+    <p>📞 電話：000-0000-0000<br>
+       ✉️ メール：info@example.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 有限会社シュウキ工業. All rights reserved.
+  </footer>
+</body>
+</html>
